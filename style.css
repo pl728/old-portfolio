@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url('profile-flip.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.layer {
+    background-color: #ffffff99;
+	height: 100vh;
+	min-height: 500px;
+	background-size-cover;
+}
+
+.service {
+	padding: 30px;
+
+}
+
+.section {
+
+}
