@@ -15,14 +15,22 @@ html {
     background-color: #ffffff99;
 	height: 100vh;
 	min-height: 500px;
-	background-size-cover;
+	background-size: cover;
+}
+
+.service-layer {
+	background-color: #ffffff50;
+	/* height: 100%; */
+	background-size: cover;
 }
 
 .service {
 	padding: 30px;
-
 }
 
+.social-link {
+	color: #227980;
+}
 .section {
 
 }
