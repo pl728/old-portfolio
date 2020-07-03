@@ -1,262 +1,439 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<!-- fontawesome stylesheet -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- animate -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-	<!-- My Stylesheet -->
-	<link rel="stylesheet" href="style.css" />
+    <title>Patrick Lin</title>
+  </head>
 
-	<title>Patrick Lin</title>
+  <body
+    data-spy="scroll"
+    data-target=".navbar"
+    data-offset="50"
+    style="margin: auto;"
+  >
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
+      style="background-color: #ffffff99;"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item ml-3 mr-3">
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item ml-3 mr-3">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item ml-3 mr-3">
+            <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          <!-- <li class="nav-item ml-3 mr-3">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li> -->
+          <!-- <li class="nav-item ml-3 mr-3">
+            <a class="nav-link" href="#resume">RESUME</a>
+          </li> -->
+          <!-- <li class="nav-item ml-3 mr-3">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
 
-</head>
+    <header class="masthead" id="home">
+      <div class="layer">
+        <div class="container h-100 align-items-center overlay-image">
+          <div class="row h-100 align-items-center">
+            <div
+              class="col-12 text-center"
+              style="background-color: transparent;"
+            >
+              <h1 class="display-4 hover-transform">
+                Hello, I'm
+                <span class="font-weight-bold"
+                  ><a
+                    href="#about"
+                    style="color: #12686b; text-decoration: none;"
+                    >Patrick Lin</text></a
+                  >
+                </span>
+              </h1>
+              <h2 class="display-5 hover-transform">
+                <!-- <small class="text-muted"
+                  >I'm a second-year computer science specialist at the
+                  University of Toronto.</small
+                > -->
+                <small class="text-muted" 
+                  >I'm a NJ based <text class="font-weight-bold">software engineer</text> and <text class="font-weight-bold">data scientist.</text></small
+                >
+              </h2>
+              <div class="pt-2">
+                <a
+                  class="social-link "
+                  href="https://github.com/pl728"
+                  target="_blank"
+                >
+                  <i class="fa fa-github p-2 hover-transform" style="font-size: 40px;"></i>
+                </a>
+                <a
+                  class="social-link"
+                  href="https://www.facebook.com/linpatrick11"
+                  target="_blank"
+                >
+                  <i class="fa fa-facebook p-2 hover-transform" style="font-size: 40px;"></i>
+                </a>
+                <a
+                  class="social-link"
+                  href="https://www.instagram.com/linpa.trick/"
+                  target="_blank"
+                >
+                  <i class="fa fa-instagram p-2 hover-transform" style="font-size: 40px;"></i>
+                </a>
+                <a class="social-link" href="https://twitter.com/linpatrick728">
+                  <i class="fa fa-twitter p-2 hover-transform" style="font-size: 40px;"></i>
+                </a>
+                <a
+                  class="social-link"
+                  href="mailto:pat.lin@mail.utoronto.ca"
+                  target="_blank"
+                >
+                  <i class="fa fa-envelope p-2 hover-transform" style="font-size: 40px;"></i>
+                </a>
+                <a
+                  class="social-link"
+                  href="https://www.linkedin.com/in/patrick-lin-20710a148/"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin p-2 hover-transform" style="font-size: 40px;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50" style="margin: auto">
+    <section class="section" id="about">
+      <div class="container align-items-center pt-5">
+        <div class="row pb-5 pl-5 pr-5">
+          <div class="col-12 col-md-3 p-4">
+            <img src="profile-square.jpg" class="rounded-circle img-fluid" />
+          </div>
+          <div class="col-md-8">
+            <h2 class="text-left mt-3 mb-3">About Me</h2>
+            <p class="lead">
+              I'm a second-year computer science specialist with minors in statistics 
+              and mathematics at the University of Toronto. 
+            </p>
+            <p class="font-weight-light">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="google.pdf" target="_blank">
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                style="color: #ffffff;"
+              >
+                <i class="fa fa-download"></i> Download Resume
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: #ffffff99">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item ml-3 mr-3">
-					<a class="nav-link" href="#home">HOME</a>
-				</li>
-				<li class="nav-item ml-3 mr-3">
-					<a class="nav-link" href="#services">SERVICES</a>
-				</li>
-				<li class="nav-item ml-3 mr-3">
-					<a class="nav-link" href="#about">ABOUT</a>
-				</li>
-				<li class="nav-item ml-3 mr-3">
-					<a class="nav-link" href="#projects">PROJECTS</a>
-				</li>
-				<li class="nav-item ml-3 mr-3">
-					<a class="nav-link" href="#resume">RESUME</a>
-				</li>
-				<li class="nav-item ml-3 mr-3">
-					<a class="nav-link" href="#contact">CONTACT</a>
-				</li>
+    <hr />
 
-			</ul>
-		</div>
-	</nav>
+    <section class="section" id="services">
+      <div class="service-layer">
+        <div class="container h-100 p-3">
+          <div class="row h-100 justify-content-center pb-5">
+            <div class="col-12 pt-5">
+              <h4 class="text-center pt-3 pb-3 text-muted">MY SERVICES</h4>
+            </div>
+            <div class="card service rounded col-sm-5 m-3">
+              <div class="card-body">
+                <div class="row">
+                  <h4 class="col-12">
+                    Software Engineering
+                  </h4>
+                  <p class="col-12">
+                    As an upcoming second year student and aspiring software
+                    engineer, I am currently open to SWE internship
+                    opportunities. Please contact me if you are interested in
+                    having me on your team!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card service rounded col-sm-5 m-3">
+              <div class="card-body">
+                <div class="row">
+                  <h4 class="col-12">
+                    Data Science
+                  </h4>
+                  <p class="col-12">
+                    With minors in statistics and mathematics, I am interested
+                    in applying cutting edge solutions in the rapidly
+                    accelerating field of data science. Check out my
+                    <a href="#services" style="text-decoration: none;"
+                      >Jupyter Notebook
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                    <i>[coming soon!]</i> as well as some of my data science
+                    <a href="#projects" style="text-decoration: none;"
+                      >projects
+                      <i class="fa fa-external-link" aria-hidden="true"></i> </a
+                    >.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card service rounded col-sm-5 m-3">
+              <div class="card-body">
+                <div class="row">
+                  <h4 class="col-12">
+                    Music Generation
+                  </h4>
+                  <p class="col-12">
+                    As a music lover and amateur <a href="https://soundcloud.com/lnpatr" target="_blank"
+                    style="text-decoration: none;">music producer <i class="fa fa-external-link" aria-hidden="true"></i></a>, 
+                    I am constantly searching
+                    for new ways to generate music algorithmically using music
+                    theory and data analytics. Check out my
+                    <a
+                      href="https://pl728.github.io/lofi-site/"
+                      target="_blank"
+                      style="text-decoration: none;"
+                      >lofi generation algorithm
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                    as well as my
+                    <a href="#services" style="text-decoration: none;"
+                      >Jupyter Notebook
+                      <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                    <i>[coming soon!]</i> on musical data sets.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card service rounded col-sm-5 m-3">
+              <div class="card-body">
+                <div class="row">
+                  <h4 class="col-12">
+                    Web Development
+                  </h4>
+                  <div>
+                    <p class="col-12">
+                      I have experience building full-fledged interactive
+                      websites using the MERN [MongoDB, Express, React, Node]
+                      stack and Redux. Check out some of my websites in the
+                      <a href="#projects" style="text-decoration: none;"
+                        >projects
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+                      section as well as my
+                      <a href="#services" style="text-decoration: none;"
+                        >freelance
+                        <i
+                          class="fa fa-external-link"
+                          aria-hidden="true"
+                        ></i> </a
+                      ><i> [coming soon!]</i> profile.
+                    </p>
+                    <p class="col-12"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<<header class="masthead" id="home">
-		<div class="layer">
-			<div class="container h-100 align-items-center overlay-image">
-				<div class="row h-100 align-items-center">
-					<div class="col-12 text-center" style="background-color: transparent">
-						<h1 class="display-4">
-							Hello, I'm <span class="font-weight-bold" style="color: #12686b">Patrick Lin</span>
-						</h1>
-						<h2 class="display-5">
-							<small class="text-muted">I'm a second-year computer science specialist at the University of Toronto.</small>
-						</h2>
-						<div class="pt-2">
-							<a class="social-link" href="https://github.com/pl728" target="_blank">
-								<i class="fa fa-github p-2" style="font-size: 40px"></i>
-							</a>
-							<a class="social-link" href="https://www.facebook.com/linpatrick11" target="_blank">
-								<i class="fa fa-facebook p-2" style="font-size: 40px"></i>
-							</a>
-							<a class="social-link" href="https://www.instagram.com/linpa.trick/" target="_blank">
-								<i class="fa fa-instagram p-2" style="font-size: 40px"></i>
-							</a>
-							<a class="social-link" href="https://twitter.com/linpatrick728">
-								<i class="fa fa-twitter p-2" style="font-size: 40px"></i>
-							</a>
-							<a class="social-link" href="mailto:pat.lin@mail.utoronto.ca" target="_blank">
-								<i class="fa fa-envelope p-2" style="font-size: 40px"></i>
-							</a>
-							<a class="social-link" href="https://www.linkedin.com/in/patrick-lin-20710a148/" target="_blank">
-								<i class="fa fa-linkedin p-2" style="font-size: 40px"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <hr />
 
-	</header>
+    <!-- 
+    <section class="section" id="projects">
+      <div class="container h-100">
+        <div class="row h-100 justify-content-center">
+          <div class="col-12">
+            <h4 class="text-center pt-5 pb-5 text-muted">
+              MY PROJECTS
+            </h4>
+          </div>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="https://picsum.photos/1000/500"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="https://picsum.photos/1001/500"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="https://picsum.photos/1001/500"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="https://picsum.photos/1002/500"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <br />
+    </section> -->
 
-	<section class="section" id="services">
-		<div class="service-layer">
-			<div class="container h-100 p-3">
-				<div class="row h-100 justify-content-center pb-5">
-					<div class="col-12 pt-5">
-						<h1 class="text-center pt-3 pb-3">My Services</h1>
-					</div>
-					<div class="card service rounded col-sm-5 m-3">
-						<div class="card-body">
-							<div class="row">
-								<h4 class="col-12">
-									Software Development
-								</h4>
-								<p class="col-12">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-									anim
-									id est laborum.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="card service rounded col-sm-5 m-3">
-						<div class="card-body">
-							<div class="row">
-								<h4 class="col-12">
-									Data Science
-								</h4>
-								<p class="col-12">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-									anim
-									id est laborum.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="card service rounded col-sm-5 m-3">
-						<div class="card-body">
-							<div class="row">
-								<h4 class="col-12">
-									Web Development
-								</h4>
-								<p class="col-12">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-									anim
-									id est laborum.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="card service rounded col-sm-5 m-3">
-						<div class="card-body">
-							<div class="row">
-								<h4 class="col-12">
-									Music Technology
-								</h4>
-								<p class="col-12">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-									commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-									anim
-									id est laborum.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <!-- <section class="section" id="contact">
+      <div class="container h-100 bg-dark">
+        <div class="row h-100 justify-content-center">
+          <div class="m-5">
+            <
+        </div>
+      </div>
+    </section> -->
+    <footer class="container">
+      <div class="row" style="margin: auto;">
+        <div class="col-12 text-center">
+          <div class="align-items-center">
+            <a class="social-link" href="https://github.com/pl728">
+              <i class="fa fa-github p-2" style="font-size: 25px;"></i>
+            </a>
+            <a class="social-link" href="https://www.facebook.com/linpatrick11">
+              <i class="fa fa-facebook p-2" style="font-size: 25px;"></i>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.instagram.com/linpa.trick/"
+            >
+              <i class="fa fa-instagram p-2" style="font-size: 25px;"></i>
+            </a>
+            <a class="social-link" href="https://twitter.com/linpatrick728">
+              <i class="fa fa-twitter p-2" style="font-size: 25px;"></i>
+            </a>
+            <a class="social-link" href="mailto:pat.lin@mail.utoronto.ca">
+              <i class="fa fa-envelope p-2" style="font-size: 25px;"></i>
+            </a>
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/patrick-lin-20710a148"
+            >
+              <i class="fa fa-linkedin p-2" style="font-size: 25px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br />
+    </footer>
 
-	</section>
-
-	<hr/>
-
-	<section class="section" id="about">
-		<div class="container align-items-center pt-5">
-			<div class="row pb-5 pl-5 pr-5">
-				<div class="col-12 col-md-3 p-4">
-					<img src="profile-square.jpg" class="rounded-circle img-fluid">
-				</div>
-				<div class="col-md-8">
-					<h2 class="text-left mt-3 mb-3">About Me</h2>
-					<p class="lead">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<p class="font-weight-light">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<a href="google.pdf" target="_blank">
-						<button type="button" class="btn btn-primary btn-lg" style="color: #ffffff"><i class="fa fa-download"></i>Download Resume</button>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<hr />
-
-	<section class="section" id="resume">
-
-	</section>
-
-	<section class="section" id="projects">
-		<div class="container h-100">
-			<div class="row h-100 justify-content-center">
-				<div class="col-12">
-					<h1 class="text-center pt-5">Projects</h1>
-				</div>
-				<!-- <div class="row ml-5 mr-5">
-					<img class="col-sm-3 mt-5 image-fluid" src="profile-square.jpg" />
-					<img class="col-sm-3 mt-5 image-fluid" src="profile-square.jpg" />
-					<img class="col-sm-3 mt-5 image-fluid" src="profile-square.jpg" />
-					<img class="col-sm-3 mt-5 image-fluid" src="profile-square.jpg" />
-				</div>
-				<div class="row ml-5 mb-5 mr-5">
-					<img class="col-sm-3 mt-5 image-fluid" src="profile-square.jpg" />
-					<img class="col-sm-3 mt-5 image-fluid" src="profile-square.jpg" />
-					<img class="col-sm-3 mt-5 image-fluid" src="profile-square.jpg" />
-					<img class="col-sm-3 mt-5 image-fluid" src="profile-square.jpg" />
-				</div> -->
-				<p class="container">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-
-		</div>
-	</section>
-
-	<section class="section" id="contact">
-	</section>
-
-	<br />
-	<hr />
-	<footer class="container">
-		<div class="row" style="margin: auto">
-			<div class="col-12 text-center" >
-				<div class="align-items-center">
-					<a class="social-link" href="https://www.facebook.com/linpatrick11">
-						<i class="fa fa-facebook p-2" style="font-size: 25px"></i>
-					</a>
-					<a class="social-link" href="https://github.com/pl728">
-						<i class="fa fa-github p-2" style="font-size: 25px"></i>
-					</a>
-					<a class="social-link" href="https://www.instagram.com/linpa.trick/">
-						<i class="fa fa-instagram p-2" style="font-size: 25px"></i>
-					</a>
-					<a class="social-link" href="https://twitter.com/linpatrick728">
-						<i class="fa fa-twitter p-2" style="font-size: 25px"></i>
-					</a>
-					<a class="social-link" href="mailto:pat.lin@mail.utoronto.ca">
-						<i class="fa fa-envelope p-2" style="font-size: 25px"></i>
-					</a>
-					<a class="social-link" href="https://www.linkedin.com/in/patrick-lin-20710a148">
-						<i class="fa fa-linkedin p-2" style="font-size: 25px"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-		<br />
-	</footer>
-
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

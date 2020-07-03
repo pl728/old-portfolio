@@ -3,39 +3,45 @@ html {
 }
 
 .navbar {
-    padding: auto;
-    width: 100%;
+  padding: auto;
+  width: 100%;
 }
 
 .masthead {
-	height: 100vh;
-	min-height: 500px;
-	background-image: url('profile-flip.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("profile-flip.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hover-transform {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hover-transform:hover {
+  transform: scale(1.02);
 }
 
 .layer {
-    background-color: #ffffff99;
-	height: 100vh;
-	min-height: 500px;
-	background-size: cover;
+  background-color: #ffffff99;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
 }
 
 .service-layer {
-	background-color: #ffffff50;
-	/* height: 100%; */
-	background-size: cover;
+  background-color: #ffffff50;
+  /* height: 100%; */
+  background-size: cover;
 }
 
 .service {
-	padding: 30px;
+  padding: 30px;
 }
 
 .social-link {
-	color: #227980;
-}
-.section {
-
+  color: #227980;
 }
